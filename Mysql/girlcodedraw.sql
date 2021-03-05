@@ -19,7 +19,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Base de datos: `fundme`
+-- Base de datos: `gpf-girlcodedraw`
 --
 
 -- --------------------------------------------------------
@@ -89,7 +89,7 @@ CREATE TABLE `admin_settings` (
 --
 
 INSERT INTO `admin_settings` (`id`, `title`, `description`, `welcome_text`, `welcome_subtitle`, `keywords`, `result_request`, `status_page`, `email_verification`, `email_no_reply`, `email_admin`, `captcha`, `file_size_allowed`, `google_analytics`, `paypal_account`, `twitter`, `facebook`, `googleplus`, `instagram`, `google_adsense`, `currency_symbol`, `currency_code`, `min_donation_amount`, `min_campaign_amount`, `max_campaign_amount`, `payment_gateway`, `paypal_sandbox`, `min_width_height_image`, `fee_donation`, `auto_approve_campaigns`, `stripe_secret_key`, `stripe_public_key`, `max_donation_amount`, `enable_paypal`, `enable_stripe`, `enable_bank_transfer`, `bank_swift_code`, `account_number`, `branch_name`, `branch_address`, `account_name`, `iban`, `date_format`, `link_privacy`, `link_terms`, `currency_position`, `facebook_login`, `google_login`, `decimal_format`, `registration_active`, `color_default`, `version`, `captcha_on_donations`) VALUES
-(1, 'Fundme | Crowdfunding Platform', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut tortor rutrum massa efficitur tincidunt vel nec lacus. Curabitur porta aliquet diam, eu gravida neque lacinia in. Praesent eget orci id sem commodo aliquet.', 'Little help, for big cause!', 'Crowdfunding Platform', 'Crowdfunding,crowfund,fundme,campaign', 8, '1', '1', 'no-reply@yousite.com', 'admin@admin.com', 'off', 2048, '', 'paypal@yousite.com', 'https://www.twitter.com/', 'https://www.facebook.com/fundme', 'https://plus.google.com/', 'https://www.instagram.com/', '', '$', 'USD', 5, 100, 1000000, 'Paypal', 'true', '800x400', 5, '1', '', '', 10000, '0', '0', '0', '', '', '', '', '', '', 'M d, Y', 'https://yousite.com/page/privacy', 'https://yousite.com/page/terms-of-service', 'left', 'off', 'off', 'dot', 'on', '#f45302', '4.1', 'on');
+(1, 'gpf-girlcodedraw | Crowdfunding Platform', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut tortor rutrum massa efficitur tincidunt vel nec lacus. Curabitur porta aliquet diam, eu gravida neque lacinia in. Praesent eget orci id sem commodo aliquet.', 'Little help, for big cause!', 'Crowdfunding Platform', 'Crowdfunding,crowfund,gpf-girlcodedraw,campaign', 8, '1', '1', 'no-reply@yousite.com', 'admin@admin.com', 'off', 2048, '', 'paypal@yousite.com', 'https://www.twitter.com/', 'https://www.facebook.com/gpf-girlcodedraw', 'https://plus.google.com/', 'https://www.instagram.com/', '', '$', 'USD', 5, 100, 1000000, 'Paypal', 'true', '800x400', 5, '1', '', '', 10000, '0', '0', '0', '', '', '', '', '', '', 'M d, Y', 'https://yousite.com/page/privacy', 'https://yousite.com/page/terms-of-service', 'left', 'off', 'off', 'dot', 'on', '#f45302', '4.1', 'on');
 
 -- --------------------------------------------------------
 
@@ -704,7 +704,7 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `name`, `countries_id`, `password`, `email`, `date`, `avatar`, `status`, `role`, `remember_token`, `token`, `confirmation_code`, `updated_at`, `created_at`, `paypal_account`, `payment_gateway`, `bank`, `oauth_uid`, `oauth_provider`, `username`, `phone`, `street`) VALUES
-(1, 'Fundme', '', '$2y$10$XzUZMAN.KUwPkpg0xSIDi.GOvyF1JDeciikz.lZJvwgMVzQqKP6uu', 'admin@example.com', '2021-01-08 11:04:42', '11475147757yvjfoku2pktmkia.jpg', 'active', 'admin', 'IMTAea0ax3scE9O3xmLKiqy5WHHuyJXQznO3XzgEX8M54U2rDJnqAb1D4jzv', 'Wy4VkAl2dxHb9WHoXjTowSGPXFPnEQHca6RBe2yeqqmRafs0hSbCEobhNkZZAbCDIru60ceLzAAOI3fj', '', '2016-10-19 06:57:00', '2016-09-09 15:34:42', '', '', '', '', '', '', 0, '');
+(1, 'gpf-girlcodedraw', '', '$2y$10$XzUZMAN.KUwPkpg0xSIDi.GOvyF1JDeciikz.lZJvwgMVzQqKP6uu', 'admin@example.com', '2021-01-08 11:04:42', '11475147757yvjfoku2pktmkia.jpg', 'active', 'admin', 'IMTAea0ax3scE9O3xmLKiqy5WHHuyJXQznO3XzgEX8M54U2rDJnqAb1D4jzv', 'Wy4VkAl2dxHb9WHoXjTowSGPXFPnEQHca6RBe2yeqqmRafs0hSbCEobhNkZZAbCDIru60ceLzAAOI3fj', '', '2016-10-19 06:57:00', '2016-09-09 15:34:42', '', '', '', '', '', '', 0, '');
 
 -- --------------------------------------------------------
 
